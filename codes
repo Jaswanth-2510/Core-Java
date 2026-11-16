@@ -1,0 +1,53 @@
+import java.util.Scanner;
+
+class Training {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        int age;
+        float marks;
+        char Grade;
+        String result;
+        long total_marks;
+
+        age = sc.nextInt();
+        marks = sc.nextFloat();
+        Grade = sc.next().charAt(0);
+        result = sc.next();
+        total_marks = sc.nextLong();
+
+        System.out.println("Age : " +age);
+        System.out.println("Marks : " +marks);
+        System.out.println("Grade : " +Grade);
+        System.out.println("Result : " +result);
+        System.out.println("total_marks : " +total_marks);
+
+        sc.close();
+        
+    }
+}
+
+OPERATORS(arithmetic operators)
+
+import java.util.*;
+ class Operators {
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        int c = sc.nextInt();
+        int d = sc.nextInt();
+        int e = sc.nextInt();
+
+        System.out.println("Addition : " + (a + b));
+        System.out.println("Subtraction : " + (c - d));
+        System.out.println("Multiplication : " + (a * c));
+        System.out.println("Division : " + (d / b));
+        System.out.println("Modulus : " + (e % a));
+
+        sc.close();
+    }
+
+    
+}
