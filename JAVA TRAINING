@@ -121,3 +121,5 @@ Jumping statements alter the normal, sequential flow of a program by transferrin
 • continue: Skips the remaining code in the current iteration of a loop and moves directly to the next iteration.
 • break: Immediately terminates the current loop or switch statement and moves execution to the code following it.
 • return: Exits the current function entirely and optionally sends a value back to the part of the program that called it.
+
+
