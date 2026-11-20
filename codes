@@ -84,3 +84,16 @@ public class mits {
         }
     }
 }
+//single inhertance
+class A {
+//block of code
+}
+class B extends class A{
+\\block of code
+}
+class main{
+public static void main(String args[]);
+//obj;
+}
+}
+
